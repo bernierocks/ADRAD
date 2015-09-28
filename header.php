@@ -33,13 +33,15 @@
 	<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) : ?>
         
     <div class="top-header">
-        <div class="container">   
+        <div class="container"> 
+            <div class="row">  
             <div class="small-12 large-12 columns">   
                 <ul class="inline-list">   
                     <li><a href="#" alt="">Call 0800 JUMP ME</a></li>
                     <li><a href="#" alt="">book online</a></li>
                 </ul>
             </div><!-- /.large12-->
+                </div><!-- /.row -->
         </div><!-- /.container -->    
     </div><!-- /.top-header -->    
         
