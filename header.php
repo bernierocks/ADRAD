@@ -34,7 +34,12 @@
         
     <div class="top-header">
         <div class="container">   
-            
+            <div class="small-12 large-12 columns">   
+                <ul class="inline-list">   
+                    <li><a href="#" alt="">Call 0800 JUMP ME</a></li>
+                    <li><a href="#" alt="">book online</a></li>
+                </ul>
+            </div><!-- /.large12-->
         </div><!-- /.container -->    
     </div><!-- /.top-header -->    
         
