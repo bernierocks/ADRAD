@@ -13,6 +13,7 @@
     margin: 0; }
     .top-header ul li a {
       color: #fff;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */
