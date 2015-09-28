@@ -37,7 +37,7 @@
             <div class="row">  
             <div class="small-12 large-12 columns">   
                 <ul class="inline-list">   
-                    <li><a href="#" alt="">Call 0800 JUMP ME</a></li>
+                    <li><a href="#" alt=""><img alt="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-phone.png">Call 0800 JUMP ME</a></li>
                     <li><a href="#" alt="">book online</a></li>
                 </ul>
             </div><!-- /.large12-->
