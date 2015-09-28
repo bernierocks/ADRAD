@@ -21,6 +21,9 @@
 		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-114x114-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-72x72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-precomposed.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/uikit/2.22.0/css/uikit.min.css">
+        <link href="<?php echo get_template_directory_uri(); ?>/css/main.css" rel="stylesheet"/>
+        <script src="https://cdn.jsdelivr.net/uikit/2.22.0/js/uikit.min.js"></script>
 
 		<?php wp_head(); ?>
 	</head>
@@ -28,7 +31,13 @@
 	<?php do_action( 'foundationpress_after_body' ); ?>
 
 	<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) : ?>
-
+        
+    <div class="top-header">
+        <div class="container">   
+            
+        </div><!-- /.container -->    
+    </div><!-- /.top-header -->    
+        
 	<div class="off-canvas-wrap" data-offcanvas>
 	<div class="inner-wrap">
 	<?php endif; ?>
