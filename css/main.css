@@ -16,6 +16,10 @@
       padding: 8px 13px; }
       .top-header ul li:nth-child(1) {
         border-right: 1px #dbdce7 solid; }
+      .top-header ul li:nth-child(2) a {
+        color: #69a841; }
+        .top-header ul li:nth-child(2) a:hover {
+          color: #83c05c; }
       .top-header ul li a {
         color: #fff;
         text-transform: uppercase;
