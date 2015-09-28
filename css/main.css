@@ -11,10 +11,15 @@
     float: right;
     padding: 0;
     margin: 0; }
-    .top-header ul li a {
-      color: #fff;
-      text-transform: uppercase;
-      font-weight: bold;
-      font-size: 18px; }
+    .top-header ul li {
+      margin: 6px 0;
+      padding: 8px 13px; }
+      .top-header ul li:nth-child(1) {
+        border-right: 1px #dbdce7 solid; }
+      .top-header ul li a {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 18px; }
 
 /*# sourceMappingURL=main.css.map */
