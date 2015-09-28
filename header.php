@@ -34,7 +34,7 @@
         
     <div class="top-header">
         <div class="container"> 
-            <div class="row">  
+            <?php bloginfo('name'); ?><div class="row">  
             <div class="small-12 large-12 columns">   
                 <ul class="inline-list">   
                     <li><a href="#" alt=""><img alt="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-phone.png">Call 0800 JUMP ME</a></li>
@@ -58,7 +58,14 @@
 		endif;
 	?>
 
-	<?php get_template_part( 'parts/top-bar' ); ?>
+	<div class="mid-header">
+        <div class="row">  
+            <div class="small-12 large-3 columns">   
+                <a href="<?php echo get_site_url(); ?>" alt="<?php bloginfo('name'); ?> Official Logo"><img alt="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"></a>
+            </div><!-- /.large12-->
+        </div><!-- /.row -->
+            
+    </div><!-- /.mid-header -->
 
 <section class="container" role="document">
 	<?php do_action( 'foundationpress_after_header' ); ?>
