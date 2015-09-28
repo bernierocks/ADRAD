@@ -27,5 +27,7 @@
         text-transform: uppercase;
         font-weight: bold;
         font-size: 18px; }
+        .top-header ul li a img {
+          margin: -3px 10px 0 0; }
 
 /*# sourceMappingURL=main.css.map */
